@@ -68,11 +68,13 @@ curl -X POST --data-binary @extract_20230122.json \
 * Understand the business needs and adjust the dashboard
 * Add a basic CI/CD system based on cloud build for automatic deploy
 * Integrate coverage a unit tests 
+* Set up a basic alert system
 
 ## One Month
 * Generate a data catalog using [OpenMetadata](https://docs.open-metadata.org/).
 * Implement data anomaly detection tools such as  [Montecarlodata](https://www.montecarlodata.com/).
-* Improve the CI/CD and the test coverage
+* Improve the CI/CD, the test coverage and the alert system
+
 
 ## After one month
 * Look for other data sources for enrichment, implement [Airbyte](https://airbyte.com/) for data sync/extraction
