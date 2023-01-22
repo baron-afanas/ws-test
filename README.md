@@ -29,7 +29,7 @@ This repository contains multiple software components organized in a monorepo.
 
 # Data Architecture
 
-![alt text](./data_stack.jpg "Data Stack")
+![Data Stack](data-stack.jpg)
 
 * The ingestion system is based in serverless architecture, everytime a file is uploaded into the cloud storage buck an event is triggered using pubsub eventarc. This allows for maximum performance and only paying the computation time needed
 * This event is used as trigger for the cloud function, it will receive the name of the file and the bucked from the event and perform the following:
