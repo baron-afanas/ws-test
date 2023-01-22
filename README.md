@@ -66,10 +66,13 @@ curl -X POST --data-binary @extract_20230122.json \
 * Add dbt to execute incremental transformations, generate marts, and perform data quality testing such as deduplication
 * Use Airflow or other orchestation tool to trigger dbt 
 * Understand the business needs and adjust the dashboard
+* Add a basic CI/CD system based on cloud build for automatic deploy
+* Integrate coverage a unit tests 
 
 ## One Month
 * Generate a data catalog using [OpenMetadata](https://docs.open-metadata.org/).
 * Implement data anomaly detection tools such as  [Montecarlodata](https://www.montecarlodata.com/).
+* Improve the CI/CD and the test coverage
 
 ## After one month
 * Look for other data sources for enrichment, implement [Airbyte](https://airbyte.com/) for data sync/extraction
